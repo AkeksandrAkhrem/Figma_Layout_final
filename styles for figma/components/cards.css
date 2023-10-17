@@ -1,0 +1,88 @@
+.container__position-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 114px;
+    margin-bottom: 114px;
+}
+
+.block-cards{
+    width: 270px;
+}
+
+.block-cards__name{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.block-cards__name-refact{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.block-cards__job-refact{
+    color: var(--color-coral);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.block-cards__description{
+    margin-top: 17px;
+    margin-bottom: 37px;
+}
+
+.block-cards__description-refact{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-lightblack);
+}
+
+.svg666999777{
+    width: 140px;
+    height: 100px;
+    display: flex;
+}
+
+.svg666, .svg999, .svg777{
+    width: 39px;
+    height: 39px;
+    margin: 3px;
+}
+
+.svg666999777 a{
+    height: 40px;
+}
+
+.svg666:hover{
+    fill: red;
+    stroke: red;
+    cursor: pointer;
+    outline: 1px solid var(--color-red);
+}
+
+.svg999:hover{
+    fill: red;
+    stroke: red;
+    cursor: pointer;
+    outline: 1px solid var(--color-red);
+}
+
+.svg777:hover{
+    fill: red;
+    stroke: red;
+    cursor: pointer;
+    outline: 1px solid var(--color-red);
+}
+
+@media (max-width: 800px){
+    .container__position-cards{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 114px;
+        margin-left: 200px;
+        margin-bottom: 114px;
+    }
+}

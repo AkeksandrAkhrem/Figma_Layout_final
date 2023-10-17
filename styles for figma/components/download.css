@@ -1,0 +1,34 @@
+.download{
+    margin-top: 114px;
+    margin-bottom: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download__text1{
+    font-size: 30px;
+    font-weight: 500;  
+    padding: 30px;
+}
+
+.download__text2{
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+    .download{
+        width: 800px;
+        margin-top: 114px;
+        margin-bottom: 114px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+}

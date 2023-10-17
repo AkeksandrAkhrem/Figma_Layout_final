@@ -1,0 +1,40 @@
+:root{
+    --color-gray: #BABBC5;
+    --color-white: #FFFFFF; /*поменять на белый */
+    --color-coral: #FF4343;
+    --color-red: #B90C0C;
+    --color-black: #2D3033;
+    --color-lightblack: #6C7279;
+    --color-chocolite: #5C3249;
+    --color-darkblue: #353C65;
+    --color-darkblue2: #2C3154;
+    --color-lastgray: #808080;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0 130px;
+}
+
+.block-container{
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0 130px;
+    margin-bottom: 100px;
+    /* display: flex; */
+}
